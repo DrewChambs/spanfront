@@ -64,6 +64,18 @@ ul {
 li {
   line-height: 2em;
 }
+.tabWrap {
+  display: flex;
+}
+.tabWrap > div {
+  background: green;
+  border: 1px solid black;
+  justify-content: center;
+}
+.tableTest {
+  flex: 1;
+  padding: 15px;
+}
 
 /* MEDIA QUERIES MARCH 11th, 2021 */
 @media screen (min-width: 768px) {
